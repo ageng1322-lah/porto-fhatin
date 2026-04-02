@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #8b5cf6; /* Purple neon */
+  --color-secondary: #3b82f6; /* Electric blue */
+  --color-dark: #0a0a0a;
+  --color-dark-lighter: #1a1a1a;
+  
+  --font-sans: "Inter", "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  
+  .neon-glow-purple {
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.3);
+  }
+  
+  .neon-glow-blue {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
+  }
+
+  .text-gradient {
+    background: linear-gradient(to right, #8b5cf6, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: transparent;
+  color: #ffffff;
+}
