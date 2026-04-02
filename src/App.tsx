@@ -214,21 +214,21 @@ const Skills = () => {
 const Portfolio = () => {
   const projects = [
     {
-      title: "Fintech Dashboard",
-      category: "UI/UX Design",
-      image: "/p-1.png",
+      title: "Isometric 3D Computer",
+      category: "Multimedia / 3D",
+      image: "/project-computer.jpg",
       color: "bg-blue-500/20 text-blue-400"
     },
     {
-      title: "Cyberpunk Computer",
-      category: "Multimedia / 3D",
-      image: "/p-2.png",
+      title: "Waktu Akan Membunuhmu",
+      category: "Graphic Design",
+      image: "/project-clock.png",
       color: "bg-purple-500/20 text-purple-400"
     },
     {
-      title: "Isometric Studio",
+      title: "Isometric 3D Bedroom",
       category: "Multimedia / 3D",
-      image: "/p-3.png",
+      image: "/project-bedroom.jpg",
       color: "bg-green-500/20 text-green-400"
     },
     {
